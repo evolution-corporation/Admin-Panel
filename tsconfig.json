@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "~core": ["./src/core/Core"],
+      "~routes/*": ["./src/routes/*"],
+      "~screens/*": ["./src/screens/*"],
+      "~assets/*": ["./assets/*"],
+      "~i18n": ["./src/i18n"],
+      "~styles": ["./src/styles"],
+      "~api/*": ["./src/api/*"],
+      "~components/*": ["./src/components/*"],
+      "~firebase": ["./src/Firebase"],
+      "~constants": ["./src/constants"],
+      "~store/*": ["./src/store/*"],
+      "~store": ["./src/store/index"],
+      "~containers/*": ["./src/containers/*"],
+      "~hooks/*": ["./src/hooks/*"],
+      "~contexts/*": ["./src/contexts/*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/store/store",
+      "./src/routes/routes"
+    ]
+  },
+  "extends": "expo/tsconfig.base"
+}
